@@ -110,6 +110,10 @@ border: solid 2px #333;
 	}
 }
 
+.project-head{
+  margin-bottom: 50px;
+}
+
 .projects{
   margin-top: 20px;
   position: relative;
