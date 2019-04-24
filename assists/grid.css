@@ -8,16 +8,40 @@
   padding-right: 15px;
 }
 
+@media (min-width: 450px) {
+  .container {
+    width: 450px;
+  }
+.prjects{
+  margin-left: 15%;
+}
+  
+}
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
   }
+
+  
 }
 
 @media (min-width: 992px) {
   .container {
     width: 970px;
     
+  }
+
+ 
+
+  .img-text {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-200%, 50%);
+    text-align: center;
   }
   
 #section-1{
