@@ -64,7 +64,7 @@ margin-bottom: 50px;
 }
 
 #profile-pic{
-background-image: url("../assists/img/profile.jpg");
+background-image: url("../assists/img/headshot.JPG");
 justify-content: center;
 width: 350px;
 height: 400px;
@@ -112,6 +112,7 @@ border: solid 2px #333;
 
 .project-head{
   margin-bottom: 50px;
+  margin-top: -20px;
 }
 
 .projects{
@@ -132,7 +133,9 @@ border: solid 2px #333;
   position: relative;
 }
  
-
+a {
+  color: whitesmoke;
+}
 
 .project-info{
   margin-top:30px; 
@@ -142,6 +145,35 @@ border: solid 2px #333;
   padding-bottom: 100px;
 }
 
+.blue{
+  background-color:  #0a212f;
+}
+.black{
+  background-color: #000000;
+}
+.red{
+
+  background-color: #36100c;
+}
+
+#pulse{
+margin-bottom: 20px;
+margin-left: 20%;
+/* padding: 20px; */
+height: 30px;
+width: 60%;
+align-content: center ;
+color: whitesmoke;
+}
+
+
+#pulse:hover{
+  animation: pulse 0.5s ease-in infinite;
+}
+  @keyframes pulse{
+    25%  {transform: scale(0.9);}
+    75%  {transform: scale(1.1);}
+  }
 
 
 footer{
@@ -150,6 +182,7 @@ footer{
   color: whitesmoke;
   /* margin-top: 50px; */
   padding-top: 50px;
+
 }
 
 .footer{
