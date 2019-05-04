@@ -10,14 +10,14 @@ window.onscroll = function () {
   prevScrollpos = currentScrollPos;
 }
 // particle
-$(document).ready(function() {
-  $('#particles').particleground({
-    dotColor: ' rgb(131, 131, 131)',
-    lineColor: ' rgb(131, 131, 131)',
-    density: 15000
-  });
+// $(document).ready(function() {
+//   $('#particles').particleground({
+//     dotColor: ' rgb(131, 131, 131)',
+//     lineColor: ' rgb(131, 131, 131)',
+//     density: 15000
+//   });
  
-});
+// });
 
  /* Demo purposes only https://speckyboy.com/advanced-image-hover-effects/ */
  $("figure").mouseleave(
