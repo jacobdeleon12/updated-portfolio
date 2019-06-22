@@ -1,129 +1,128 @@
 html {
-    scroll-behavior: smooth;
-    font-family: 'Raleway', sans-serif;
+  scroll-behavior: smooth;
+  font-family: 'Raleway', sans-serif;
 }
 
-body{
+body {
   background: rgba(51, 51, 51, 0.205);
 }
 
 .parallax {
-    /* The image used */
-    background-image: url("../assists/img/head.jpg");
-    /* Set a specific height */
-    min-height: 650px;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* The image used */
+  background-image: url("../assists/img/head.jpg");
+  /* Set a specific height */
+  min-height: 650px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-
 #navbar {
-    background-color: #333;
-    /* Black background color */
-    position: fixed;
-    /* Make it stick/fixed */
-    top: 0;
-    /* Stay on top */
-    width: 100%;
-    /* Full width */
-    transition: top 0.3s;
-    /* Transition effect when sliding down (and up) */
-    z-index: 99;
+  background-color: #333;
+  /* Black background color */
+  position: fixed;
+  /* Make it stick/fixed */
+  top: 0;
+  /* Stay on top */
+  width: 100%;
+  /* Full width */
+  transition: top 0.3s;
+  /* Transition effect when sliding down (and up) */
+  z-index: 99;
 }
 
 /* Style the navbar links */
 
 #navbar a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    text-decoration: none;
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
 }
 
 #navbar a:hover {
-    background-color: #ddd;
-    color: black;
+  background-color: #ddd;
+  color: black;
 }
 
-
-h2{
-    text-align: center;
-    text-decoration: underline;
-    font-size: 45px;
-    padding: 20px;
+h2 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 45px;
+  padding: 20px;
 }
 
-.name-head{
-margin-top:50px;
-margin-bottom: 50px;
+.name-head {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-#profile-pic{
-background-image: url("../assists/img/headshot.JPG");
-justify-content: center;
-width: 350px;
-height: 400px;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-border: solid 2px #333;
+#profile-pic {
+  background-image: url("../assists/img/headshot.JPG");
+  justify-content: center;
+  width: 350px;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid 2px #333;
 }
 
-#profile-text{
-    margin-top: 15px;
-    margin-left: 15%; 
-    font-size: 18px;
+#profile-text {
+  margin-top: 15px;
+  margin-left: 15%;
+  font-size: 18px;
 }
 
-#stats{
-  margin-top:20px; 
+#stats {
+  margin-top: 20px;
   text-align: center;
   font-size: 25px;
-
 }
 
 /* Flashing */
+
 #profile-pic:hover {
-	opacity: 1;
-	-webkit-animation: flash 1.5s;
-	animation: flash 1.5s;
-}
-@-webkit-keyframes flash {
-	0% {
-		opacity: .4;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-@keyframes flash {
-	0% {
-		opacity: .4;
-	}
-	100% {
-		opacity: 1;
-	}
+  opacity: 1;
+  -webkit-animation: flash 1.5s;
+  animation: flash 1.5s;
 }
 
-.project-head{
+@-webkit-keyframes flash {
+  0% {
+    opacity: .4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes flash {
+  0% {
+    opacity: .4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.project-head {
   margin-bottom: 50px;
   margin-top: -20px;
 }
 
-.projects{
+.projects {
   margin-top: 20px;
   position: relative;
   display: block;
   width: 250;
-  
 }
 
-.project-img img{
+.project-img img {
   height: 350px;
   width: 350px;
   opacity: 1;
@@ -132,64 +131,67 @@ border: solid 2px #333;
   backface-visibility: hidden;
   position: relative;
 }
- 
+
 a {
   color: whitesmoke;
 }
 
-.project-info{
-  margin-top:30px; 
+.project-info {
+  margin-top: 30px;
   margin-bottom: 40px;
   text-align: center;
   font-size: 23px;
   padding-bottom: 100px;
 }
 
-.blue{
-  background-color:  #0a212f;
+.blue {
+  background-color: #0a212f;
 }
-.black{
+
+.black {
   background-color: #000000;
 }
-.red{
 
+.red {
   background-color: #36100c;
 }
 
-#pulse{
-margin-bottom: 20px;
-margin-left: 20%;
-/* padding: 20px; */
-height: 30px;
-width: 60%;
-align-content: center ;
-color: whitesmoke;
+#pulse {
+  margin-bottom: 20px;
+  margin-left: 20%;
+  /* padding: 20px; */
+  height: 30px;
+  width: 60%;
+  align-content: center;
+  color: whitesmoke;
 }
 
-
-#pulse:hover{
+#pulse:hover {
   animation: pulse 0.5s ease-in infinite;
 }
-  @keyframes pulse{
-    25%  {transform: scale(0.9);}
-    75%  {transform: scale(1.1);}
+
+@keyframes pulse {
+  25% {
+    transform: scale(0.9);
   }
+  75% {
+    transform: scale(1.1);
+  }
+}
 
-
-footer{
+footer {
   width: 100%;
   background-color: #333;
   color: whitesmoke;
   /* margin-top: 50px; */
   padding-top: 50px;
-
 }
 
-.footer{
-  background-color:#333;
+.footer {
+  background-color: #333;
 }
 
-form{
+form {
   margin-top: 30px;
 }
 
@@ -219,14 +221,13 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-#social-media img{
+#social-media img {
   height: 50px;
   width: 50px;
   margin: 10px;
 }
 
-
-#particles canvas{
+#particles canvas {
   position: absolute;
   width: auto;
   height: auto;
@@ -284,13 +285,11 @@ figure.snip1104 h2 {
   padding: 12px 5px;
   margin: 0;
   top: 50%;
-  
   font-weight: 400;
 }
 
 figure.snip1104 h2 span {
   font-weight: 800;
-  
 }
 
 figure.snip1104:before {
@@ -318,7 +317,6 @@ figure.snip1104 a {
 
 figure.snip1104.blue {
   background: #123851;
-  
 }
 
 figure.snip1104.blue h2 {
@@ -327,7 +325,6 @@ figure.snip1104.blue h2 {
 
 figure.snip1104.red {
   background: #581a14;
- 
 }
 
 figure.snip1104.red h2 {
@@ -342,21 +339,18 @@ figure.snip1104.yellow h2 {
   background: #583804;
 }
 
-figure.snip1104:hover img,
-figure.snip1104.hover img {
+figure.snip1104:hover img, figure.snip1104.hover img {
   opacity: 1;
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
 
-figure.snip1104:hover h2,
-figure.snip1104.hover h2 {
+figure.snip1104:hover h2, figure.snip1104.hover h2 {
   -webkit-transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
   transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
 }
 
-figure.snip1104:hover:before,
-figure.snip1104.hover:before {
+figure.snip1104:hover:before, figure.snip1104.hover:before {
   -webkit-transform: rotate(110deg) translateY(-150%);
   transform: rotate(110deg) translateY(-150%);
 }
