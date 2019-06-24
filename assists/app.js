@@ -16,3 +16,7 @@ window.onscroll = function () {
     $(this).removeClass("hover");
   }
 );
+// scrolling
+AOS.init({
+  duration: 1000,
+})
