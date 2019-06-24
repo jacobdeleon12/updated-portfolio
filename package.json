@@ -1,0 +1,25 @@
+{
+  "name": "updated-portfolio",
+  "version": "1.0.0",
+  "description": "Setting up my professional portfolio. I used free open source background for the particle affect. As well as an in house grid system similar to bootstrap.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobdeleon12/updated-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacobdeleon12/updated-portfolio/issues"
+  },
+  "homepage": "https://github.com/jacobdeleon12/updated-portfolio#readme"
+}
