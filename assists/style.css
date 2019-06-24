@@ -9,13 +9,19 @@ body {
 
 .parallax {
   /* The image used */
-  background-image: url("../assists/img/head.jpg");
+  background: url("../assists/img/head.jpg")no-repeat center center fixed;
   /* Set a specific height */
   min-height: 650px;
   /* Create the parallax scrolling effect */
-  background-attachment: fixed;
+  /* background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover; */
+
+ 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -47,6 +53,13 @@ body {
 #navbar a:hover {
   background-color: #ddd;
   color: black;
+}
+#section-1{
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h2 {
@@ -141,7 +154,29 @@ a {
   margin-bottom: 40px;
   text-align: center;
   font-size: 23px;
-  padding-bottom: 100px;
+  padding-bottom: 10px;
+  height: 300px;
+  overflow: auto;
+
+}
+.project-info::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.project-info::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+.project-info::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: whitesmoke;
 }
 
 .blue {
@@ -185,13 +220,17 @@ footer {
   color: whitesmoke;
   /* margin-top: 50px; */
   padding-top: 50px;
+  
+}
+.footer-bottom{
+  margin-bottom: 20px;
 }
 
 .footer {
   background-color: #333;
 }
 
-form {
+/* form {
   margin-top: 30px;
 }
 
@@ -219,12 +258,15 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #45a049;
-}
+} */
 
 #social-media img {
   height: 50px;
   width: 50px;
   margin: 10px;
+}
+#social-media{
+margin-left: 10%;
 }
 
 #particles canvas {
@@ -235,14 +277,16 @@ input[type=submit]:hover {
   background-color: whitesmoke;
   opacity: .3;
 }
-
-/* https://speckyboy.com/advanced-image-hover-effects/ */
+.footer-links{
+  color: #00000000;
+}
+/* image-hover-effects/ */
 
 figure.snip1104 {
   font-family: 'Raleway', Arial, sans-serif;
   position: relative;
   overflow: hidden;
-  margin: 10px;
+  margin: 4px;
   min-width: 350px;
   max-width: 350px;
   max-height: 350px;
