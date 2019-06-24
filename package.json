@@ -4,6 +4,7 @@
   "description": "Setting up my professional portfolio. I used free open source background for the particle affect. As well as an in house grid system similar to bootstrap.",
   "main": "server.js",
   "dependencies": {
+    "chart.js": "^2.8.0",
     "express": "^4.17.1"
   },
   "devDependencies": {},

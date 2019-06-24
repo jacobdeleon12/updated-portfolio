@@ -122,6 +122,19 @@ h2 {
     opacity: 1;
   }
 }
+.skills{
+margin-top: 40px;
+}
+.chart {
+  margin-right: 10%;
+  /* margin-top: 10%; */
+  padding: 20px;
+  text-align: center;
+  margin-left: -5%;
+  margin-bottom: 10%;
+}
+
+
 
 .project-head {
   margin-bottom: 50px;

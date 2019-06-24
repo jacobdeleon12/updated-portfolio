@@ -82,7 +82,7 @@
     text-align: center;
   }
   #section-1 {
-    height: 100vh;
+    height: 90vh;
   }
   #section-2 {
     /* height: 100vh; */
@@ -94,7 +94,7 @@
     width: 1170px;
   }
   #section-1 {
-    height: 100vh;
+    height: 90vh;
   }
   #section-2 {
     /* height: 100vh; */
@@ -272,4 +272,8 @@
   .col-lg-1 {
     grid-column: span 1
   }
+}
+
+fd{
+  color: #FFFBFC
 }
