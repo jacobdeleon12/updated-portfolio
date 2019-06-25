@@ -34,9 +34,7 @@
   /* #social-media{
     margin-right: -10%;
     } */
-    .col-xs-4{
-      grid-column: span 3;
-    }
+ 
 }
 
 @media (min-width: 450px) {
@@ -57,9 +55,7 @@
   .project-head {
     margin-bottom: 0px;
   }
-  /* #social-media{
-    margin-right: -10%;
-    } */
+  
    
   @media (min-width: 768px) {
     .container {
@@ -272,8 +268,4 @@
   .col-lg-1 {
     grid-column: span 1
   }
-}
-
-fd{
-  color: #FFFBFC
 }
