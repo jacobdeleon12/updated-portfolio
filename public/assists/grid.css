@@ -13,7 +13,7 @@
   padding-left: 2%;
 }
 
-@media (min-width: 350px) {
+@media (min-width: 320px) {
   .container {
     width: 350px;
   }
