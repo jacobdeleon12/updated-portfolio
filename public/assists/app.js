@@ -63,7 +63,7 @@ var codeSkills = {
 };
 
 var peopleSkills = {
-  labels: ["Adaptability", "Leadership", "Critical Thinking", "TeamWork"],
+  labels: ["Leadership", "Adaptability", "TeamWork", "Critical Thinking"],
   datasets: [
     {
       backgroundColor: [

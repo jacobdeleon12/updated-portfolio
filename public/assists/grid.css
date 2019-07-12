@@ -34,7 +34,6 @@
   /* #social-media{
     margin-right: -10%;
     } */
- 
 }
 
 @media (min-width: 450px) {
@@ -55,12 +54,18 @@
   .project-head {
     margin-bottom: 0px;
   }
-  
-   
-  @media (min-width: 768px) {
-    .container {
-      width: 750px;
-    }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+  #profile-pic{
+    margin-left:27%; 
+  }
+  figure.snip1104{
+    margin: 0px;
+    margin-left: 27% !important;
   }
 }
 
@@ -94,6 +99,13 @@
   }
   #section-2 {
     /* height: 100vh; */
+  }
+  #profile-pic{
+    margin-left:0%; 
+  }
+  figure.snip1104{
+    margin: 0px;
+    margin-left: 0% !important;
   }
 }
 
