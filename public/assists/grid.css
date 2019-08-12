@@ -60,10 +60,10 @@
   .container {
     width: 750px;
   }
-  #profile-pic{
-    margin-left:27%; 
+  #profile-pic {
+    margin-left: 27%;
   }
-  figure.snip1104{
+  figure.snip1104 {
     margin: 0px;
     margin-left: 27% !important;
   }
@@ -90,6 +90,12 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .project-head {
+    padding-top: 18rem;
+  }
+}
+
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
@@ -100,10 +106,13 @@
   #section-2 {
     /* height: 100vh; */
   }
-  #profile-pic{
-    margin-left:0%; 
+  .project-head {
+    padding-top: 9rem;
   }
-  figure.snip1104{
+  #profile-pic {
+    margin-left: 0%;
+  }
+  figure.snip1104 {
     margin: 0px;
     margin-left: 0% !important;
   }
